@@ -1,0 +1,10 @@
+org_name: blabla
+name: production
+providers:
+  aws:
+    region: us-east-1
+    account_id: "329489245165"
+modules:
+  - type: base
+  - type: k8s-cluster
+  - type: k8s-base
